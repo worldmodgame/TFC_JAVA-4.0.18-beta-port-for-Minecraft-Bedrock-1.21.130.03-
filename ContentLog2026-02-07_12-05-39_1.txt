@@ -1,0 +1,417 @@
+12:06:22[Texture][inform]-TextureSet (textures/items/copper_golem) | Specified image could not be found
+
+12:07:54[Scripting][verbose]-Plugin Discovered [TFC Bedrock Port - Base Module] PackId [6a6c3687-a9f4-4ca0-a872-1481c2bb322f_1.0.0] ModuleId [c4fb0a38-b881-4beb-95ca-9fb52038128f]
+
+12:07:54[Blocks][error]-block_definitions | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/scraping_log.json | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/scraping_log.json | tfc:scraping_log | components | minecraft:selection_box: origin with added size can't be below (-8, 0, -8) and can't be more than (8, 16, 8)
+
+12:07:55[Molang][error]-block_definitions | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/pit_kiln.json | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/pit_kiln.json | tfc:pit_kiln | components | query.block_property('tfc:kiln_stage') == 1 | Failed to resolve query query.block_property.  Either the query does not exist or it is not supported in this context.
+
+12:07:55[Molang][error]-block_definitions | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/pit_kiln.json | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/pit_kiln.json | tfc:pit_kiln | components | query.block_property('tfc:kiln_stage') == 1 | unrecognized token: query.block_property('tfc:kiln_stage') == 1
+
+12:07:55[Blocks][error]-block_definitions | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/pit_kiln.json | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/pit_kiln.json | tfc:pit_kiln | components | permutation condition failed to parse
+
+12:07:55[Blocks][error]-block_definitions | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/pit_kiln.json | Unexpected version for the loaded data
+
+12:07:55[Molang][error]-block_definitions | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/log_pile.json | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/log_pile.json | tfc:log_pile | events | tfc:add_log | condition | condition | query.block_property('tfc:count') < 4 | Failed to resolve query query.block_property.  Either the query does not exist or it is not supported in this context.
+
+12:07:55[Molang][error]-block_definitions | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/log_pile.json | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/log_pile.json | tfc:log_pile | events | tfc:add_log | condition | condition | query.block_property('tfc:count') < 4 | unrecognized token: query.block_property('tfc:count') < 4
+
+12:07:55[Molang][error]-block_definitions | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/log_pile.json | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/log_pile.json | tfc:log_pile | events | tfc:add_log | condition | condition | Error parsing: query.block_property('tfc:count') < 4
+
+12:07:55[Molang][error]-block_definitions | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/log_pile.json | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/log_pile.json | tfc:log_pile | events | tfc:add_log | condition | condition | expression 'query.block_property('tfc:count') < 4' compile failed
+
+12:07:55[Blocks][inform]-block_definitions | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/log_pile.json | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/log_pile.json | tfc:log_pile | events | tfc:add_log | set_block_property | {
+   "tfc:count" : "query.block_property('tfc:count') + 1"
+}
+
+
+12:07:55[Blocks][error]-block_definitions | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/log_pile.json | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/log_pile.json | tfc:log_pile | events | tfc:add_log | set_block_property | child 'set_block_property' not valid here.
+
+12:07:55[Molang][error]-block_definitions | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/forge.json | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/forge.json | tfc:forge | components | query.block_property('tfc:is_burning') == true | Failed to resolve query query.block_property.  Either the query does not exist or it is not supported in this context.
+
+12:07:55[Molang][error]-block_definitions | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/forge.json | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/forge.json | tfc:forge | components | query.block_property('tfc:is_burning') == true | unrecognized token: query.block_property('tfc:is_burning') == true
+
+12:07:55[Blocks][error]-block_definitions | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/forge.json | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/forge.json | tfc:forge | components | permutation condition failed to parse
+
+12:07:55[Blocks][error]-block_definitions | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/forge.json | Unexpected version for the loaded data
+
+12:07:55[Molang][error]-block_definitions | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/crop_wheat.json | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/crop_wheat.json | tfc:crop_wheat | components | query.block_property('tfc:growth_stage') <= 3 | Failed to resolve query query.block_property.  Either the query does not exist or it is not supported in this context.
+
+12:07:55[Molang][error]-block_definitions | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/crop_wheat.json | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/crop_wheat.json | tfc:crop_wheat | components | query.block_property('tfc:growth_stage') <= 3 | unrecognized token: query.block_property('tfc:growth_stage') <= 3
+
+12:07:55[Blocks][error]-block_definitions | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/crop_wheat.json | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/crop_wheat.json | tfc:crop_wheat | components | permutation condition failed to parse
+
+12:07:55[Blocks][error]-block_definitions | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/crop_wheat.json | Unexpected version for the loaded data
+
+12:07:55[Molang][error]-block_definitions | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/barrel.json | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/barrel.json | tfc:barrel | components | query.block_property('tfc:fluid_level') > 0 | Failed to resolve query query.block_property.  Either the query does not exist or it is not supported in this context.
+
+12:07:55[Molang][error]-block_definitions | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/barrel.json | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/barrel.json | tfc:barrel | components | query.block_property('tfc:fluid_level') > 0 | unrecognized token: query.block_property('tfc:fluid_level') > 0
+
+12:07:55[Blocks][error]-block_definitions | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/barrel.json | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/barrel.json | tfc:barrel | components | permutation condition failed to parse
+
+12:07:55[Blocks][error]-block_definitions | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | blocks/barrel.json | Unexpected version for the loaded data
+
+12:08:05[Item][error]-Item is an invalid json object.
+
+12:08:05[Item][error]-Item is an invalid json object.
+
+12:08:05[Json][error]-upgrade items/stone_axe.json | failed to parse file into a json document: The document root must not be followed by other values.
+
+12:08:07[Item][error]-minecraft:on_use has been deprecated and is not available in json format 1.21.10
+
+12:08:07[Item][inform]-tfc:throw_spear | damage | {
+   "amount" : 1,
+   "type" : "durability"
+}
+
+
+12:08:07[Item][error]-tfc:throw_spear | damage | child 'damage' not valid here.
+
+12:08:07[Item][warning]-tfc:flint_spear -> events: this member was found in the input, but is not present in the Schema
+
+12:08:07[Item][warning]-Item 'tfc:metal_pickaxe_head_copper' has already been overridden by a pack higher in the pack stack!
+
+12:08:12[Actor][error]-Мой мир | actor_definitions | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | minecraft:player | minecraft:entity | description | Error loading property 'tfc:gender': type value must be "int", "float", "bool", or "enum".
+
+12:08:12[Actor][error]-Мой мир | actor_definitions | /storage/emulated/0/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorlds/6+ZamQ==/behavior_packs/TFCBedrock | minecraft:player | minecraft:entity | description | Error loading Actor Properties
+
+12:08:22[FeatureRegistry][error]-Мой мир | native_copper_nugget_block_rule | Feature rule identifier 'native_copper_nugget_block' does not match filename 'native_copper_nugget_block_rule'
+
+12:08:26[FeatureRegistry][inform]-Мой мир | tfc:clay_indicator_feature | minecraft:single_block_feature | json node:
+{
+   "description" : {
+      "identifier" : "tfc:clay_indicator_feature"
+   },
+   "enforce_placement_rules" : true,
+   "may_replace" : [ "minecraft:air" ],
+   "places_block" : "minecraft:yellow_flower"
+}
+
+
+12:08:26[FeatureRegistry][inform]-Мой мир | tfc:clay_indicator_feature | minecraft:single_block_feature | node names found:
+:enforce_survivability_rules:may_attach_to
+
+12:08:26[FeatureRegistry][inform]-Мой мир | tfc:clay_indicator_feature | minecraft:single_block_feature | valid options:
+:description:places_block:enforce_placement_rules:enforce_survivability_rules:may_attach_to:may_replace
+
+12:08:26[FeatureRegistry][error]-Мой мир | tfc:clay_indicator_feature | minecraft:single_block_feature | Required child enforce_survivability_rules not found
+
+12:08:26[FeatureRegistry][error]-Мой мир | No definition found for feature 'tfc:clay_indicator_feature'
+
+12:08:26[FeatureRegistry][inform]-Мой мир | tfc:clay_patch_feature | minecraft:ore_feature | may_replace | [ "minecraft:dirt", "minecraft:grass_block", "minecraft:sand" ]
+
+
+12:08:26[FeatureRegistry][error]-Мой мир | tfc:clay_patch_feature | minecraft:ore_feature | may_replace | child 'may_replace' not valid here.
+
+12:08:26[FeatureRegistry][inform]-Мой мир | tfc:clay_patch_feature | minecraft:ore_feature | places_block | "minecraft:clay"
+
+
+12:08:26[FeatureRegistry][error]-Мой мир | tfc:clay_patch_feature | minecraft:ore_feature | places_block | child 'places_block' not valid here.
+
+12:08:26[FeatureRegistry][error]-Мой мир | No definition found for feature 'tfc:clay_patch_feature'
+
+12:08:26[FeatureRegistry][inform]-Мой мир | tfc:fallen_stick_feature | minecraft:single_block_feature | json node:
+{
+   "description" : {
+      "identifier" : "tfc:fallen_stick_feature"
+   },
+   "enforce_placement_rules" : true,
+   "may_replace" : [ "minecraft:grass_block", "minecraft:dirt" ],
+   "places_block" : "tfc:fallen_stick"
+}
+
+
+12:08:26[FeatureRegistry][inform]-Мой мир | tfc:fallen_stick_feature | minecraft:single_block_feature | node names found:
+:enforce_survivability_rules:may_attach_to
+
+12:08:26[FeatureRegistry][inform]-Мой мир | tfc:fallen_stick_feature | minecraft:single_block_feature | valid options:
+:description:places_block:enforce_placement_rules:enforce_survivability_rules:may_attach_to:may_replace
+
+12:08:26[FeatureRegistry][error]-Мой мир | tfc:fallen_stick_feature | minecraft:single_block_feature | Required child enforce_survivability_rules not found
+
+12:08:26[FeatureRegistry][error]-Мой мир | No definition found for feature 'tfc:fallen_stick_feature'
+
+12:08:26[FeatureRegistry][inform]-Мой мир | tfc:loose_rock_feature | minecraft:single_block_feature | json node:
+{
+   "description" : {
+      "identifier" : "tfc:loose_rock_feature"
+   },
+   "enforce_placement_rules" : true,
+   "may_replace" : [ "minecraft:grass_block", "minecraft:dirt", "minecraft:sand" ],
+   "places_block" : "tfc:granite_rock"
+}
+
+
+12:08:26[FeatureRegistry][inform]-Мой мир | tfc:loose_rock_feature | minecraft:single_block_feature | node names found:
+:enforce_survivability_rules:may_attach_to
+
+12:08:26[FeatureRegistry][inform]-Мой мир | tfc:loose_rock_feature | minecraft:single_block_feature | valid options:
+:description:places_block:enforce_placement_rules:enforce_survivability_rules:may_attach_to:may_replace
+
+12:08:26[FeatureRegistry][error]-Мой мир | tfc:loose_rock_feature | minecraft:single_block_feature | Required child enforce_survivability_rules not found
+
+12:08:26[FeatureRegistry][error]-Мой мир | No definition found for feature 'tfc:loose_rock_feature'
+
+12:08:26[FeatureRegistry][inform]-Мой мир | tfc:native_copper_nugget_block_feature | minecraft:single_block_feature | json node:
+{
+   "description" : {
+      "identifier" : "tfc:native_copper_nugget_block_feature"
+   },
+   "enforce_placement_rules" : true,
+   "may_replace" : [ "minecraft:grass_block", "minecraft:dirt", "minecraft:sand" ],
+   "places_block" : "tfc:native_copper_nugget_block"
+}
+
+
+12:08:26[FeatureRegistry][inform]-Мой мир | tfc:native_copper_nugget_block_feature | minecraft:single_block_feature | node names found:
+:enforce_survivability_rules:may_attach_to
+
+12:08:26[FeatureRegistry][inform]-Мой мир | tfc:native_copper_nugget_block_feature | minecraft:single_block_feature | valid options:
+:description:places_block:enforce_placement_rules:enforce_survivability_rules:may_attach_to:may_replace
+
+12:08:26[FeatureRegistry][error]-Мой мир | tfc:native_copper_nugget_block_feature | minecraft:single_block_feature | Required child enforce_survivability_rules not found
+
+12:08:26[FeatureRegistry][error]-Мой мир | No definition found for feature 'tfc:native_copper_nugget_block_feature'
+
+12:08:26[FeatureRegistry][inform]-Мой мир | tfc:rock_feature | minecraft:single_block_feature | may_place_on | [ "minecraft:grass_block", "minecraft:dirt", "minecraft:sand" ]
+
+
+12:08:26[FeatureRegistry][error]-Мой мир | tfc:rock_feature | minecraft:single_block_feature | may_place_on | child 'may_place_on' not valid here.
+
+12:08:26[FeatureRegistry][error]-Мой мир | No definition found for feature 'tfc:rock_feature'
+
+12:08:26[FeatureRegistry][inform]-Мой мир | tfc:wild_crop_feature | minecraft:single_block_feature | json node:
+{
+   "description" : {
+      "identifier" : "tfc:wild_crop_feature"
+   },
+   "enforce_placement_rules" : true,
+   "may_replace" : [ "minecraft:grass_block", "minecraft:dirt" ],
+   "places_block" : "tfc:wild_crop"
+}
+
+
+12:08:26[FeatureRegistry][inform]-Мой мир | tfc:wild_crop_feature | minecraft:single_block_feature | node names found:
+:enforce_survivability_rules:may_attach_to
+
+12:08:26[FeatureRegistry][inform]-Мой мир | tfc:wild_crop_feature | minecraft:single_block_feature | valid options:
+:description:places_block:enforce_placement_rules:enforce_survivability_rules:may_attach_to:may_replace
+
+12:08:26[FeatureRegistry][error]-Мой мир | tfc:wild_crop_feature | minecraft:single_block_feature | Required child enforce_survivability_rules not found
+
+12:08:26[FeatureRegistry][error]-Мой мир | No definition found for feature 'tfc:wild_crop_feature'
+
+12:08:46[Json][error]- -> components -> minecraft:material_instances -> * -> texture:  Missing referenced asset tfc:scraping_log
+
+12:08:46[Json][error]- -> components -> minecraft:material_instances -> * -> texture:  Missing referenced asset tfc:rock_raw_andesite
+
+12:08:46[Json][error]- -> components -> minecraft:material_instances -> * -> texture:  Missing referenced asset tfc:quern
+
+12:08:46[Json][error]- -> components -> minecraft:material_instances -> crucible -> texture:  Missing referenced asset tfc:ceramic_crucible
+
+12:08:46[Json][error]- -> components -> minecraft:digger -> destroy_speeds[1] -> block:  Missing referenced asset tfc:rock_raw_granite
+
+12:08:46[Json][error]- -> components -> minecraft:icon -> textures -> default:  Missing referenced asset tfc:copper_saw
+
+12:08:46[Json][error]- -> components -> minecraft:icon -> textures -> default:  Missing referenced asset tfc:flint_knife
+
+12:08:46[Json][error]- -> components -> minecraft:icon -> textures -> default:  Missing referenced asset tfc:flint_spear
+
+12:08:46[Json][error]- -> components -> minecraft:icon -> textures -> default:  Missing referenced asset tfc:gold_pan
+
+12:08:46[Json][error]- -> components -> minecraft:icon -> textures -> default:  Missing referenced asset tfc:stone_hammer
+
+12:08:46[Json][error]- -> components -> minecraft:digger -> destroy_speeds[4] -> block:  Missing referenced asset tfc:clay_loam
+
+12:08:46[Json][error]- -> components -> minecraft:icon -> textures -> default:  Missing referenced asset tfc:stone_shovel
+
+12:08:48[Scripting][verbose]-Plugin [TFC Bedrock Port - Base Module] - promoted [@minecraft/server-bindings] from [1.13.0] to [1.19.0] requested by [@minecraft/server - 1.13.0].
+
+12:08:48[Scripting][verbose]-Plugin [TFC Bedrock Port - Base Module] - promoted [@minecraft/server-bindings] from [1.3.0] to [1.19.0] requested by [@minecraft/server - 1.3.0].
+
+12:08:48[Scripting][verbose]-Plugin [TFC Bedrock Port - Base Module] - promoted [@minecraft/server] from [1.13.0] to [1.19.0] requested by [TFC Bedrock Port - Base Module - 1.0.0].
+
+12:08:48[Scripting][verbose]-Plugin [TFC Bedrock Port - Base Module] - promoted [@minecraft/server] from [1.3.0] to [1.19.0] requested by [@minecraft/server-ui-bindings - 1.3.0].
+
+12:08:48[Scripting][error]-SyntaxError: duplicate import binding    at engines/saw_engine.js:45
+
+
+12:08:48[Scripting][error]-Plugin [TFC Bedrock Port - Base Module - 1.0.0] - [main.js] ran with error: [SyntaxError: duplicate import binding    at engines/saw_engine.js:45
+]
+
+12:09:04[Geometry][error]-models/blocks/forge.geo.json | parse error:
+* Line 17, Column 5
+  Syntax error: value, object or array expected.
+* Line 16, Column 6
+  Missing '}' or object member name
+* Line 13, Column 4
+  Missing '}' or object member name
+* Line 3, Column 2
+  Missing '}' or object member name
+
+
+12:09:04[Geometry][error]-models/blocks/scraping_log.geo.json | parse error:
+* Line 12, Column 33
+  Syntax error: value, object or array expected.
+* Line 12, Column 23
+  Missing '}' or object member name
+* Line 11, Column 4
+  Missing '}' or object member name
+* Line 3, Column 2
+  Missing '}' or object member name
+
+
+12:09:04[Geometry][error]-models/blocks/scraping_log_with_hide.geo.json | parse error:
+* Line 10, Column 33
+  Syntax error: value, object or array expected.
+* Line 10, Column 23
+  Missing '}' or object member name
+* Line 9, Column 4
+  Missing '}' or object member name
+* Line 3, Column 2
+  Missing '}' or object member name
+
+
+12:09:04[Geometry][error]-models/blocks/stone_anvil.geo.json | parse error:
+* Line 16, Column 14
+  Syntax error: value, object or array expected.
+* Line 16, Column 6
+  Missing '}' or object member name
+* Line 13, Column 4
+  Missing '}' or object member name
+* Line 3, Column 2
+  Missing '}' or object member name
+
+
+12:09:06[Texture][inform]-TextureSet (textures/items/copper_golem) | Specified image could not be found
+
+12:09:18[Molang][error]-render_controllers/tfc.item.render_controllers.json | controller.render.tfc.hot_item | textures | query.item_dynamic_property('tfc:item_temp') > 500 ? array.hot[1] : array.hot[0] | Failed to resolve query query.item_dynamic_property.  Either the query does not exist or it is not supported in this context.
+
+12:09:18[Molang][error]-render_controllers/tfc.item.render_controllers.json | controller.render.tfc.hot_item | textures | query.item_dynamic_property('tfc:item_temp') > 500 ? array.hot[1] : array.hot[0] | unrecognized token: query.item_dynamic_property('tfc:item_temp') > 500 ? array.hot[1] : array.hot[0]
+
+12:09:36[Json][inform]-minecraft:skeleton | minecraft:behavior.nearest_attackable_target | minecraft:skeleton | For entity skeleton, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:09:53[Blocks][error]-Block name = 'tfc:stone_anvil' |  -> components -> minecraft:geometry -> identifier:  Missing referenced asset geometry.tfc.stone_anvil
+
+12:09:53[Blocks][error]-Block name = 'tfc:scraping_log' |  -> components -> minecraft:geometry -> identifier:  Missing referenced asset geometry.tfc.scraping_log
+
+12:10:14[Json][inform]-minecraft:creeper | minecraft:behavior.nearest_attackable_target | minecraft:creeper | For entity creeper, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:10:26[Json][inform]-minecraft:drowned | minecraft:behavior.nearest_attackable_target | minecraft:drowned | For entity drowned, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:10:26[Json][inform]-minecraft:drowned | minecraft:behavior.nearest_attackable_target | minecraft:drowned | For entity drowned, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:10:26[Json][inform]-minecraft:drowned | minecraft:behavior.nearest_attackable_target | minecraft:drowned | For entity drowned, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:10:26[Json][inform]-minecraft:drowned | minecraft:behavior.nearest_attackable_target | minecraft:drowned | For entity drowned, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:10:27[Json][inform]-minecraft:drowned | minecraft:behavior.nearest_attackable_target | minecraft:drowned | For entity drowned, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:11:01[Json][inform]-minecraft:drowned | minecraft:behavior.nearest_attackable_target | minecraft:drowned | For entity drowned, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:11:01[Json][inform]-minecraft:drowned | minecraft:behavior.nearest_attackable_target | minecraft:drowned | For entity drowned, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:11:01[Json][inform]-minecraft:drowned | minecraft:behavior.nearest_attackable_target | minecraft:drowned | For entity drowned, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:11:03[Json][inform]-minecraft:skeleton | minecraft:behavior.nearest_attackable_target | minecraft:skeleton | For entity skeleton, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:11:09[Json][inform]-minecraft:creeper | minecraft:behavior.nearest_attackable_target | minecraft:creeper | For entity creeper, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:11:13[Json][inform]-minecraft:zombie | minecraft:behavior.nearest_attackable_target | minecraft:zombie | For entity zombie, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:11:13[Json][inform]-minecraft:zombie | minecraft:behavior.nearest_attackable_target | minecraft:zombie | For entity zombie, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:11:13[Json][inform]-minecraft:zombie | minecraft:behavior.nearest_attackable_target | minecraft:zombie | For entity zombie, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:11:25[Json][inform]-minecraft:skeleton | minecraft:behavior.nearest_attackable_target | minecraft:skeleton | For entity skeleton, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:11:34[Json][inform]-minecraft:creeper | minecraft:behavior.nearest_attackable_target | minecraft:creeper | For entity creeper, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:11:34[Json][inform]-minecraft:drowned | minecraft:behavior.nearest_attackable_target | minecraft:drowned | For entity drowned, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:11:34[Json][inform]-minecraft:drowned | minecraft:behavior.nearest_attackable_target | minecraft:drowned | For entity drowned, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:11:42[Json][inform]-minecraft:creeper | minecraft:behavior.nearest_attackable_target | minecraft:creeper | For entity creeper, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:11:45[Json][inform]-minecraft:drowned | minecraft:behavior.nearest_attackable_target | minecraft:drowned | For entity drowned, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:11:45[Json][inform]-minecraft:drowned | minecraft:behavior.nearest_attackable_target | minecraft:drowned | For entity drowned, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:11:51[Json][inform]-minecraft:skeleton | minecraft:behavior.nearest_attackable_target | minecraft:skeleton | For entity skeleton, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:11:51[Json][inform]-minecraft:skeleton | minecraft:behavior.nearest_attackable_target | minecraft:skeleton | For entity skeleton, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:11:51[Json][inform]-minecraft:skeleton | minecraft:behavior.nearest_attackable_target | minecraft:skeleton | For entity skeleton, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:11:53[Json][inform]-minecraft:creeper | minecraft:behavior.nearest_attackable_target | minecraft:creeper | For entity creeper, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:11:53[Json][inform]-minecraft:skeleton | minecraft:behavior.nearest_attackable_target | minecraft:skeleton | For entity skeleton, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:11:55[Json][inform]-minecraft:creeper | minecraft:behavior.nearest_attackable_target | minecraft:creeper | For entity creeper, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:12:06[Json][inform]-minecraft:zombie | minecraft:behavior.nearest_attackable_target | minecraft:zombie | For entity zombie, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:12:06[Json][inform]-minecraft:zombie | minecraft:behavior.nearest_attackable_target | minecraft:zombie | For entity zombie, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:12:14[Json][inform]-minecraft:skeleton | minecraft:behavior.nearest_attackable_target | minecraft:skeleton | For entity skeleton, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:12:18[Json][inform]-minecraft:creeper | minecraft:behavior.nearest_attackable_target | minecraft:creeper | For entity creeper, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:12:18[Json][inform]-minecraft:creeper | minecraft:behavior.nearest_attackable_target | minecraft:creeper | For entity creeper, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:12:20[Json][inform]-minecraft:skeleton | minecraft:behavior.nearest_attackable_target | minecraft:skeleton | For entity skeleton, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:12:23[Json][inform]-minecraft:skeleton | minecraft:behavior.nearest_attackable_target | minecraft:skeleton | For entity skeleton, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:12:25[Json][inform]-minecraft:zombie | minecraft:behavior.nearest_attackable_target | minecraft:zombie | For entity zombie, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:12:25[Json][inform]-minecraft:zombie | minecraft:behavior.nearest_attackable_target | minecraft:zombie | For entity zombie, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:12:25[Json][inform]-minecraft:zombie | minecraft:behavior.nearest_attackable_target | minecraft:zombie | For entity zombie, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:12:33[Json][error]-Unknown block during Deferred BlockDescriptor resolution: tfc:rock_raw_granite
+
+
+12:12:33[Json][inform]-minecraft:skeleton | minecraft:behavior.nearest_attackable_target | minecraft:skeleton | For entity skeleton, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:12:40[Json][inform]-minecraft:skeleton | minecraft:behavior.nearest_attackable_target | minecraft:skeleton | For entity skeleton, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:12:40[Json][inform]-minecraft:skeleton | minecraft:behavior.nearest_attackable_target | minecraft:skeleton | For entity skeleton, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:12:40[Json][inform]-minecraft:skeleton | minecraft:behavior.nearest_attackable_target | minecraft:skeleton | For entity skeleton, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:12:40[Json][inform]-minecraft:drowned | minecraft:behavior.nearest_attackable_target | minecraft:drowned | For entity drowned, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:12:40[Json][inform]-minecraft:drowned | minecraft:behavior.nearest_attackable_target | minecraft:drowned | For entity drowned, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:12:40[Json][inform]-minecraft:skeleton | minecraft:behavior.nearest_attackable_target | minecraft:skeleton | For entity skeleton, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:12:47[Json][inform]-minecraft:drowned | minecraft:behavior.nearest_attackable_target | minecraft:drowned | For entity drowned, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:12:47[Json][inform]-minecraft:drowned | minecraft:behavior.nearest_attackable_target | minecraft:drowned | For entity drowned, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:12:47[Json][inform]-minecraft:skeleton | minecraft:behavior.nearest_attackable_target | minecraft:skeleton | For entity skeleton, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:12:59[Json][inform]-minecraft:creeper | minecraft:behavior.nearest_attackable_target | minecraft:creeper | For entity creeper, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:13:17[Json][inform]-minecraft:creeper | minecraft:behavior.nearest_attackable_target | minecraft:creeper | For entity creeper, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:13:17[Json][inform]-minecraft:skeleton | minecraft:behavior.nearest_attackable_target | minecraft:skeleton | For entity skeleton, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:13:17[Json][inform]-minecraft:zombie | minecraft:behavior.nearest_attackable_target | minecraft:zombie | For entity zombie, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:13:17[Json][inform]-minecraft:zombie | minecraft:behavior.nearest_attackable_target | minecraft:zombie | For entity zombie, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:14:00[Json][inform]-minecraft:creeper | minecraft:behavior.nearest_attackable_target | minecraft:creeper | For entity creeper, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:14:23[Json][inform]-minecraft:zombie | minecraft:behavior.nearest_attackable_target | minecraft:zombie | For entity zombie, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:14:23[Json][inform]-minecraft:zombie | minecraft:behavior.nearest_attackable_target | minecraft:zombie | For entity zombie, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:14:30[Json][inform]-minecraft:creeper | minecraft:behavior.nearest_attackable_target | minecraft:creeper | For entity creeper, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:15:07[Json][inform]-minecraft:skeleton | minecraft:behavior.nearest_attackable_target | minecraft:skeleton | For entity skeleton, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:15:10[Json][inform]-minecraft:skeleton | minecraft:behavior.nearest_attackable_target | minecraft:skeleton | For entity skeleton, "attack_interval" is disabled (max <= 0); goal will fall back to "scan_interval" (ticks).
+
+12:15:24[Json][inform]-minecraft:creeper | minecraft:behavior.nearest_attackable_target | minecraft:creeper | For entity creeper, "attack_interval" is disabled (max <= 0); goal will fall back to "sca
